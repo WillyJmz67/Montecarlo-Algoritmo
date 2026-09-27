@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Dist
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data cache
+data_cache/
+data/*.parquet
+*.csv
+!README.md
+
+# Streamlit
+.streamlit/
+*.sqlite
+*.duckdb
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log

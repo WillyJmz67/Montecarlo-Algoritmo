@@ -1,0 +1,27 @@
+# config.yaml — valores por defecto de la interfaz (la app los usa como referencia)
+simulation:
+  n_paths: 10000
+  horizon_days: 252
+  seed: 42
+  model: gbm
+
+portfolio:
+  base_currency: USD
+  asset_class: "Acciones / ETFs"
+  weights:
+    SPY: 0.40
+    QQQ: 0.20
+    GLD: 0.15
+    EURUSD=X: 0.15
+    GC=F: 0.10
+  rebalance: none
+
+data:
+  source: yfinance
+  start_date: "2015-01-01"
+  interval: 1d
+
+risk:
+  var_confidence: 0.95
+  cvar_confidence: 0.99
+  target_return: 0.10
