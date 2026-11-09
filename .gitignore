@@ -29,7 +29,7 @@ data/*.parquet
 !README.md
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 *.sqlite
 *.duckdb
 
